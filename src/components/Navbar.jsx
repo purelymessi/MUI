@@ -27,7 +27,7 @@ const Navbar = () => {
         <Box sx={{ width: 250, backgroundColor: '#FFF49C', height: '100%' }}>
           <List>
             {['Home', 'About', 'Services', 'Contact'].map((text, index) => (
-              <ListItem button key={index} component={Link} to={`/${text.toLowerCase()}`} sx={{ padding: '1rem', '&:hover': { backgroundColor: '#F0E4B1' } }}>
+              <ListItem button key={index} component={Link} to={`/${text.toLowerCase()}`} sx={{ padding: '16px', '&:hover': { backgroundColor: '#F0E4B1' } }}>
                 <ListItemText primary={text} sx={{ color: '#1D2951' }} />
               </ListItem>
             ))}

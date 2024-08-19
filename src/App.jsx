@@ -18,12 +18,12 @@ const App = () => {
           background: `url(${photo}) no-repeat center center`,
           backgroundSize: 'cover',
           color: '#FFF',
-          padding: '8rem 0',
+          padding: '128px 0',
           textAlign: 'center'
         }}
       >
-        <Box sx={{ maxWidth: '800px', margin: '0 auto' }}>
-          <Typography variant="h1" sx={{ fontSize: '4rem', margin: '0 0 2rem 0' }}>
+        <Box sx={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <Typography variant="h1" sx={{ fontSize: '64px', margin: '0 0 32px 0' }}>
             The quick brown fox jumps over the lazy dog.
           </Typography>
           <Button
@@ -31,8 +31,8 @@ const App = () => {
             sx={{
               backgroundColor: '#FFB400',
               color: '#FFF',
-              padding: '0.75rem 2rem',
-              fontSize: '1.2rem',
+              padding: '16px 32px',
+              fontSize: '20px',
               '&:hover': { backgroundColor: '#e0a500' }
             }}
           >
